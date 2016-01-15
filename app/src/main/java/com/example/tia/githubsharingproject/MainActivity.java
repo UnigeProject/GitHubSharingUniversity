@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
     public void onClickNascondino(){
         bottoneNascosto.setVisibility(View.GONE);
     }
+
+    public void updatedaFisso (){
+        int g = 0;
+    }
 }
