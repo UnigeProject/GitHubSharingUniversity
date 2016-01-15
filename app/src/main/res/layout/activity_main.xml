@@ -13,15 +13,15 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/BottoneCheNasconde"
-        android:text="Nascondi l'altro pulsante"
-        android:onClick="onClickNascondino"
+        android:id="@+id/Login"
+        android:text="Login"
+        android:onClick="onClickLogin"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/BottoneCheSiNasconde"
-        android:text="NON MI NASCONDERE!"
-        android:onClick="onClickDaNascosto"/>
+        android:id="@+id/Registrazione"
+        android:text="Registrazione"
+        android:onClick="onClickRegistrazione"/>
 </LinearLayout>
