@@ -13,5 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void provadiupdate (){
         int i = 0;
+
+        int ii = 2;
     }
 }
