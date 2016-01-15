@@ -24,5 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void updatedaFisso (){
         int g = 0;
+        int y = 0;
     }
 }
