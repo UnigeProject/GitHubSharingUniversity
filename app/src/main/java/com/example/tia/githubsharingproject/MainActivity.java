@@ -4,10 +4,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button bottoneCheNascondere = (Button) findViewById(R.id.BottoneCheNasconde);
+    Button bottoneCheNasconde = (Button) findViewById(R.id.BottoneCheNasconde);
     Button bottoneNascosto =(Button) findViewById(R.id.BottoneCheSiNasconde);
 
     @Override
@@ -20,5 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickNascondino(){
         bottoneNascosto.setVisibility(View.GONE);
+    }
+
+    public void onClickDaNascosto(){
+        Toast.makeText(MainActivity.this, "Anche da nascosto", Toast.LENGTH_SHORT).show();
     }
 }
