@@ -26,4 +26,8 @@ public class MainActivity extends AppCompatActivity {
     public void onClickDaNascosto(){
         Toast.makeText(this, "Anche da nascosto", Toast.LENGTH_SHORT).show();
     }
+
+    public void provaMetodo(){
+        int j = 0;
+    }
 }
